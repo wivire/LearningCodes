@@ -9,6 +9,7 @@
 .classpath
 .project
 .DS_Store
+.properties
 
 # Package Files #
 .svn

@@ -1,5 +1,7 @@
 package chapter6;
 
+import javax.swing.*;
+
 /**
  * <pre>
  * Created with IntelliJ IDEA.
@@ -13,5 +15,17 @@ package chapter6;
  */
 public class InnerClassTest {
 
-//    public ActionListener listener = new TalkingClock.TimePrinter();
+    public static void main(String[] args) {
+        TalkingClock clock = new TalkingClock(1000, true);
+        //构建一个内部类TimePrinter
+        TalkingClock.TimePrinter timePrinter = clock.new TimePrinter();
+        clock.start();
+
+        //keep program running until user select "Ok"
+        JOptionPane.showMessageDialog(null, "Quit programm?");
+        System.exit(0);
+
+
+    }
+
 }

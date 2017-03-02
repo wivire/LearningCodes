@@ -7,7 +7,7 @@
     <groupId>com.xuexi</groupId>
     <artifactId>Learning</artifactId>
     <packaging>pom</packaging>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0.0</version>
     <build>
         <plugins>
             <plugin>
@@ -22,7 +22,6 @@
     </build>
     <modules>
         <module>thinkingJava</module>
-        <module>untitled</module>
         <module>mongoDb</module>
         <module>redis</module>
         <module>hadoopFramework</module>
@@ -31,6 +30,7 @@
         <module>other</module>
         <module>jdkSrc</module>
         <module>algorithm</module>
+        <module>SpringLearning</module>
     </modules>
 
     <repositories>

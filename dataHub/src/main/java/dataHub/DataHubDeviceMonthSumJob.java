@@ -7,8 +7,8 @@ import org.apache.spark.api.java.JavaSparkContext;
 import org.apache.spark.api.java.function.Function;
 import org.apache.spark.api.java.function.PairFunction;
 import scala.Tuple2;
-import utlis.DistanceUtil;
-import utlis.RedisUtilsSingleton;
+import utils.DistanceUtil;
+import utils.RedisUtilsSingleton;
 
 import java.util.Iterator;
 import java.util.LinkedHashSet;
@@ -125,7 +125,6 @@ public class DataHubDeviceMonthSumJob {
 
 
     public static void main(String[] args) throws Exception {
-
 
         try {
             String[] dates = new String[]{"2016-12-23", "2016-12-24", "2016-12-25", "2016-12-26", "2016-12-27", "2016-12-28",
