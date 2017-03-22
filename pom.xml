@@ -24,13 +24,11 @@
         <module>thinkingJava</module>
         <module>mongoDb</module>
         <module>redis</module>
-        <module>hadoopFramework</module>
         <module>dataHub</module>
         <module>utils</module>
         <module>other</module>
         <module>jdkSrc</module>
         <module>algorithm</module>
-        <module>SpringLearning</module>
     </modules>
 
     <repositories>

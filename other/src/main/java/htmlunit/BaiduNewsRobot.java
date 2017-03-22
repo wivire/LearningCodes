@@ -6,6 +6,7 @@ import com.gargoylesoftware.htmlunit.html.HtmlPage;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -44,6 +45,8 @@ public class BaiduNewsRobot {
         url = sburl.toString();
 
         long size = getSourceSize(getPage(webClient, url + pn), 500);
+
+        return new ArrayList<News>();
     }
 
     //使用指定的浏览器，根据url获取页面；
